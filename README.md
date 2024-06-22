@@ -11,19 +11,6 @@
 
 This project aims to classify bird species based on their audio calls. It uses a Convolutional Neural Network (CNN) to achieve this classification.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data](#data)
-- [Model Training](#model-training)
-- [Evaluation](#evaluation)
-- [Results](#results)
-- [Web Interface](#web-interface)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 The Bird Sound Classifier is a machine learning project that identifies bird species from audio recordings. It uses deep learning techniques to process audio data and predict the species of the bird.
 
@@ -34,47 +21,33 @@ The Bird Sound Classifier is a machine learning project that identifies bird spe
 - Model training and evaluation
 - Web interface for user-friendly interaction
 
-## Installation
-To run this project locally, you'll need to install the required dependencies. Follow the steps below:
+## How to Run
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/bird-sound-classifier.git
-    cd bird-sound-classifier
-    ```
+Download the Bird-Call-Identification-Using-Deep-Learning/Bird_Call_Identifier (Python Project)/pythonProject6 folder and run app.py python file.
+Open your web browser and go to http://127.0.0.1:5000 to use the interface.
+(NOTE :- 
+    pydub
+    librosa
+    tensorflow
+    scikit-learn
+    matplotlib
+    tqdm
+    flask 
+    packages are needed to run the program.)
 
-2. Install the required Python packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
+## Data Distribution
 
-3. Install additional dependencies:
-    ```sh
-    pip install pydub librosa tensorflow scikit-learn matplotlib tqdm
-    ```
+![image](https://github.com/Rushdi-Rzx/Bird-Call-Identification-Using-Deep-Learning/assets/127214329/d1771b18-9bcc-4ae8-87c3-d177a2fc51f9)
 
-## Usage
-1. **Preprocess Data**: Ensure your dataset is organized with separate folders for each bird species containing their audio files.
-2. **Run Model Training**: Use the provided script to train the model on your dataset.
-3. **Evaluate the Model**: Check the model's performance using the test dataset.
-4. **Run the Web Interface**: Launch the web interface to classify new bird calls.
+## Classification Report
 
-## Data
-The dataset should be organized as follows:
+![image](https://github.com/Rushdi-Rzx/Bird-Call-Identification-Using-Deep-Learning/assets/127214329/55bcba15-d625-4ab7-8ef5-2b3be63f6af5)
 
-/content/drive/MyDrive/Bird/
-├── BrownTinamou/
-│ ├── audio1.mp3
-│ ├── audio2.wav
-│ └── ...
-├── CinereousTinamou/
-│ ├── audio1.mp3
-│ ├── audio2.wav
-│ └── ...
-└── GreatTinamou/
-├── audio1.mp3
-├── audio2.wav
-└── ...
+## Model Acuracy and Loss
+
+![image](https://github.com/Rushdi-Rzx/Bird-Call-Identification-Using-Deep-Learning/assets/127214329/51218ca3-34d5-4dff-87cd-02d39a12eb16)
+
+
 
 
 
