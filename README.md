@@ -52,3 +52,20 @@ To run this project locally, you'll need to install the required dependencies. F
 
 ## Data
 The dataset should be organized as follows:
+
+/content/drive/MyDrive/Bird/
+├── BrownTinamou/
+│ ├── audio1.mp3
+│ ├── audio2.wav
+│ └── ...
+├── CinereousTinamou/
+│ ├── audio1.mp3
+│ ├── audio2.wav
+│ └── ...
+└── GreatTinamou/
+├── audio1.mp3
+├── audio2.wav
+└── ...
+
+
+
