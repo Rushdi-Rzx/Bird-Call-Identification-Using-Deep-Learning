@@ -25,15 +25,9 @@ The Bird Sound Classifier is a machine learning project that identifies bird spe
 
 Download the Bird-Call-Identification-Using-Deep-Learning/Bird_Call_Identifier (Python Project)/pythonProject6 folder and run app.py python file.
 Open your web browser and go to http://127.0.0.1:5000 to use the interface.
-(NOTE :- 
-    pydub
-    librosa
-    tensorflow
-    scikit-learn
-    matplotlib
-    tqdm
-    flask 
-    packages are needed to run the program.)
+
+(NOTE :- pydub, librosa, tensorflow, scikit-learn, matplotlib, tqdm and flask packages are needed to run the program.)
+
 
 ## Data Distribution
 
