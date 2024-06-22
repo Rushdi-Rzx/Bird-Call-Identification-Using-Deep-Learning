@@ -11,8 +11,7 @@ label_encoder = LabelEncoder()
 label_encoder.fit(['Brown Tinamou', 'Cinereous Tinamou', 'Great Tinamou'])
 model = tf.keras.models.load_model('bird_species_classifier.h5')
 
-  # Load your trained model here
-max_len = 500  # Adjust this value based on your feature extraction and padding
+max_len = 500
 
 def extract_features(y, sr, n_mfcc=13):
     mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=n_mfcc)
