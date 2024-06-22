@@ -1,5 +1,8 @@
 # Bird-Call-Identification-Using-Deep-Learning
 
+![Screenshot 2024-06-22 235539](https://github.com/Rushdi-Rzx/Bird-Call-Identification-Using-Deep-Learning/assets/127214329/7162d787-6d2a-4032-8319-fc701b361a5b)
+
+
 This project aims to classify bird species based on their audio calls. It uses a Convolutional Neural Network (CNN) to achieve this classification.
 
 ## Table of Contents
